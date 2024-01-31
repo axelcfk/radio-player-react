@@ -1,0 +1,69 @@
+.channel-container {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  width: 800px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+/* .img-div {
+  height: 100%;
+  width: 50px;
+} */
+
+.img {
+  border-right: 0.5px solid black;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.controls {
+  /* margin-top: -40px; */
+  /* align-items: center; */
+}
+
+.content {
+  margin-left: 60px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-right: 40px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.skeleton {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  width: 800px;
+  height: 300px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  width: 200px;
+}
+
+.input {
+  height: 30px;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
